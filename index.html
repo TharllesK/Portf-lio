@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/reveal.js/dist/theme/black.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="yourpath/all-animation.css" />
+    <title>Portfólio</title>
+  </head>
+  <body id="inicio">
+    <!--Imagem do topo do site-->
+
+    <header class="cabeçalho" id="cabeçalho">
+      <img class="img-logo" src="./img/logo.png" alt="Logo do site" />
+
+      <!--Menu do site-->
+
+      <nav class="cabeçalho-menu">
+        <a class="cabeçalho-menu-item" href="#inicio">Inicio</a>
+        <a class="cabeçalho-menu-item" href="#box">Sobre</a>
+        <a class="cabeçalho-menu-item" href="#projetos">Projetos</a>
+        <a class="cabeçalho-menu-item" href="#footer">Contato</a>
+      </nav>
+    </header>
+
+    <!--Bem vindo ao portfólio-->
+
+    <main class="conteudo" id="conteudo">
+      <section class="conteudo-principal">
+        <div class="conteudo-principal-escrito" data-aos="fade-left">
+          <h1 class="conteudo-principal-escrito-titulo1">BEM VINDO AO</h1>
+          <h2 class="conteudo-principal-escrito-titulo2">MEU PORTFÓLIO</h2>
+
+          <!--Paragráfo, me conhecer melhor-->
+
+          <section class="conteudo-secundario">
+            <p class="conteudo-secundario-paragrafo">
+              Aqui você irá me conhecer melhor, e ver alguns de meus projetos.
+            </p>
+          </section>
+
+          <!--Botão do whatsapp-->
+
+          <a
+            href="https://api.whatsapp.com/send?phone=556299162123&text=Ol%C3%A1%20Tharlles%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20site%20com%20voc%C3%AA."
+            ><button class="conteudo-principal-escrito-botao">
+              Whatsapp
+            </button></a
+          >
+        </div>
+
+        <!--Imagem do site-->
+
+        <div class="img-container" data-aos="fade-right">
+          <img
+            class="topico-principal-imagem"
+            src="./img/topico2.png"
+            alt="Imagem principal"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!--Área do sobre mim-->
+
+    <main>
+      <div class="box" id="box">
+        <div class="box2" data-aos="fade-right">
+          <img
+            class="ilustration"
+            src="./img/eu.png"
+            alt="ilustração de programador"
+          />
+        </div>
+
+        <div class="box3" data-aos="fade-left">
+          <h1 class="title">Quem eu sou</h1>
+          <p class="description">
+            Meu nome é Tharlles Kawã, trabalho com desenvolvimento de sites,
+            executo a parte do Front-end. Desenvolvendo interfaces sempre com
+            alta qualidade, animações e responsividade.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!--Área de projetos-->
+
+    <main>
+      <div class="box-projetos" id="projetos">
+        <div class="box3-projetos" data-aos="fade-left">
+          <h1 class="title1">Projetos</h1>
+        </div>
+      </div>
+
+      <div class="box-projetos-imagens" data-aos="fade-down">
+        <div class="projetos-imagens">
+          <a href="https://landing-page-biblioteca.netlify.app/"
+            ><img src="./img/projeto1.png" alt=""
+          /></a>
+        </div>
+
+        <div class="projetos-imagens" data-aos="fade-down">
+          <img class="projetos-imagem1" src="./img/projetos.png" alt="" />
+        </div>
+
+        <div class="projetos-imagens" data-aos="fade-down">
+          <img src="./img/projetos.png" alt="" />
+        </div>
+      </div>
+
+      <div class="box-projetos-imagens2" data-aos="fade-up">
+        <div class="projetos-imagens">
+          <img src="./img/projetos.png" alt="" />
+        </div>
+
+        <div class="projetos-imagens" data-aos="fade-up">
+          <img src="./img/projetos.png" alt="" />
+        </div>
+
+        <div class="projetos-imagens" data-aos="fade-up">
+          <img src="./img/projetos.png" alt="" />
+        </div>
+      </div>
+
+      <div class="box-projetos-imagens3" data-aos="fade-up">
+        <div class="projetos-imagens">
+          <img src="./img/projetos.png" alt="" />
+        </div>
+
+        <div class="projetos-imagens" data-aos="fade-up">
+          <img src="./img/projetos.png" alt="" />
+        </div>
+
+        <div class="projetos-imagens" data-aos="fade-up">
+          <img src="./img/projetos.png" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <!--Fim do site-->
+
+    <div class="teste1" id="footer">
+      <footer class="footer" id="fade-right">
+        <div class="footer1">
+          <img
+            class="footer-imagem"
+            data-aos="fade-right"
+            src="./img/footer.png"
+            alt="Footer"
+          />
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500,
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
